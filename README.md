@@ -1,6 +1,6 @@
 # Ray Tracing In Vulkan --- pure ray tracing
 
-This Rep clone from https://github.com/GPSnoopy/RayTracingInVulkan. we removed the content related to rasterization to try to support pure ray tracing. (The original Rep had an initialization about rasterization when using ray tracing mode.)
+This Rep clone from https://github.com/GPSnoopy/RayTracingInVulkan. we removed the content related to rasterization to try to support pure ray tracing. (The original Rep had an initialization about rasterization when using ray tracing mode.) We also add the FPS on the window.
 
 Built int the same way as RayTracingInVulkan.
 
