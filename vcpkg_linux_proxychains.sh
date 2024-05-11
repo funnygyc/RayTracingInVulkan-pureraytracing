@@ -6,9 +6,9 @@ cd build
 git clone https://github.com/Microsoft/vcpkg.git vcpkg.linux
 cd vcpkg.linux
 git checkout 2023.04.15
-./bootstrap-vcpkg.sh
+proxychains ./bootstrap-vcpkg.sh
 
-./vcpkg install \
+proxychains ./vcpkg install \
 	boost-exception:x64-linux \
 	boost-program-options:x64-linux \
 	boost-stacktrace:x64-linux \
